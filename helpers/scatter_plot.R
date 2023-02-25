@@ -33,7 +33,7 @@ gen_across_scatter <- function(code_id, pair_data, type,type_label,z_institution
     theme(
       # panel.border = element_blank(),
       axis.line = element_line(colour = "black"),
-      legend.position = "bottom",
+      legend.position = "none",
       axis.ticks.x = ggplot2::element_blank(),
       axis.text.x = ggplot2::element_blank(),
       #panel.grid.major.x = ggplot2::element_blank(),
@@ -63,7 +63,7 @@ gen_across_scatter <- function(code_id, pair_data, type,type_label,z_institution
       theme(
         # panel.border = element_blank(),
         axis.line = element_line(colour = "black"),
-        legend.position = "bottom",
+        legend.position = "none",
         axis.ticks.x = ggplot2::element_blank(),
         axis.text.x = ggplot2::element_blank(),
         #panel.grid.major.x = ggplot2::element_blank(),
